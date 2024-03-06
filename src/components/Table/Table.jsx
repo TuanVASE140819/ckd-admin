@@ -138,7 +138,6 @@ export default function BasicTable() {
                   </TableCell>
                   <TableCell align="left">
                     {
-                    
                       new Date(row.created_at).toLocaleDateString() + " " + new Date(row.created_at).toLocaleTimeString()
                     }
                   </TableCell>
